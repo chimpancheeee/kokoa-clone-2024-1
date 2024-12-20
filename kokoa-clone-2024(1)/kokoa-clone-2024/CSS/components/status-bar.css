@@ -1,0 +1,21 @@
+.status-bar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+}
+.status-bar__column {
+    display: flex;
+}
+.status-bar__column :last-child {
+    justify-content: flex-end;
+    align-items: center;
+}
+.status-bar__column .fa-battery-full {
+    margin: 0px 5px;
+    transform: translateY(1px);
+}
+.status-bar__column .fa-bolt-lightning {
+    transform: translateY(1px);
+}
